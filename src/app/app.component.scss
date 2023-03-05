@@ -1,0 +1,13 @@
+#app-container {
+  display: grid;
+}
+
+:host ::ng-deep .p-menubar {
+  border-radius: 0px;
+
+  p {
+    margin: 10px;
+    padding-right: 20px;
+    font-size: x-large;
+  }
+}

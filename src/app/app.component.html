@@ -1,4 +1,7 @@
-<div>
-  Hello
+<div id="app-container">
+  <p-menubar [model]="items" [styleClass]="'menubar'">
+    <ng-template pTemplate="start">
+      <p class="text-lg">Admin app</p>
+    </ng-template>
+  </p-menubar>
 </div>
-<p-button label="Click"></p-button>
